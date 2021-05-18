@@ -75,4 +75,8 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # env vars
+  ENV['GOOGLE_OAUTH_CLIENT_ID'] = '668149943983-edemc3elksamtijq8ih43hbs738caj9k.apps.googleusercontent.com'
+  ENV['GOOGLE_OAUTH_CLIENT_SECRET'] = 'srr3gQEpVofbheaq46gxx_lv'
 end
